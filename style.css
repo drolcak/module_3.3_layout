@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -21,6 +23,24 @@
     border: 1px black solid;
 }
 
+/* -------------------------Header -------------------------*/
+nav {
+    background: #313332;
+    height: 50px;
+}
+
+nav>ul>li {
+    list-style: none;
+    float: right;
+}
+
+nav>ul>li::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* -------------------------GRID -------------------------*/
 /* -------------------------columns-------------------------*/
 .col-1 {
     width: 8.33%;
@@ -121,12 +141,4 @@
 }
 /* --------------------footer-------------------------*/
 
-footer>div {
-    background-color: #000000;
-    color: #ffffff;
-    max-height: 20%;
-    text-align: center;
-    display: grid;
-    width: 100%;
-}
 
