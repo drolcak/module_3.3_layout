@@ -1,4 +1,4 @@
-* {
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -24,21 +24,26 @@
 }
 
 /* -------------------------Header -------------------------*/
-nav {
+nav>.row {
     background: #313332;
     height: 50px;
 }
 
-nav>ul>li {
+nav>div>ul>li {
     list-style: none;
     float: right;
+    display: inline-block;
+   }
+
+nav>div>ul>li>a {
+    padding: 0 20px;
+    text-decoration: none;
 }
 
-nav>ul>li::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+nav img {
+    float: left;
+    margin-left: 10%;
+    }
 
 /* -------------------------GRID -------------------------*/
 /* -------------------------columns-------------------------*/
