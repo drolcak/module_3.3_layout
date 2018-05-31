@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -46,7 +46,7 @@ nav > div > ul > li a {
 }
 
 nav>div>ul>li a:hover {
-    background-color: #ffffff;
+    background-color: #00C7E8;
     color: #313332;
 }
 
@@ -70,7 +70,6 @@ nav img {
 
 .slogan {
     background-color: rgba(0.0.0.0 0.8);
-    /*border: #313332 1px solid;*/
     float: right;
     max-width: 500px;
     padding: 2% 10%;
@@ -88,15 +87,21 @@ nav img {
     color: grey;
     max-height: 10vh;
     overflow: hidden; /*nie umiem tego uciąć do np 4 wierszy max*/
+    text-align: center;
+    letter-spacing: 1px;
 }
 
-.benefits .row {
+.benefits > .container > h1 {
+ margin-bottom: 0;
+}
+
+.benefits .row, .benefits h1 {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.benefits .header {
+.benefits .header, .benefits h1 {
     text-transform: uppercase;
  }
 
