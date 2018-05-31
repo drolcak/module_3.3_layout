@@ -21,7 +21,7 @@ body {
     float: left;
     min-height: 1px;
     padding: 10px;
-    border: 1px black solid;
+    /*border: 1px black solid;*/
 }
 
 /* -------------------------Header -------------------------*/
@@ -54,7 +54,7 @@ nav img {
     float: left;
     margin: 10px 20px;
     max-height: 30px;
-   
+
     }
 
 /* -------------------------Hero -------------------------*/
@@ -77,8 +77,32 @@ nav img {
     color: white;
     margin-top: 40vh;
     font-size: x-large;
-    }
+}
 
+/* -------------------------Benefits -------------------------*/
+.benefits > .container {
+    margin: 50px auto;
+}
+
+.benefits p {
+    color: grey;
+    max-height: 10vh;
+    overflow: hidden; /*nie umiem tego uciąć do np 4 wierszy max*/
+}
+
+.benefits .row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.benefits .header {
+    text-transform: uppercase;
+ }
+
+.benefits .col-3:hover {
+    color: #00C7E8;
+}
 /* -------------------------GRID -------------------------*/
 /* -------------------------columns-------------------------*/
 .col-1 {
