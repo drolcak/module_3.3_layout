@@ -108,6 +108,17 @@ nav img {
 .benefits .col-3:hover {
     color: #00C7E8;
 }
+
+
+/* -------------------------Gallery -------------------------*/
+
+.gallery img {
+    padding: 0 0;
+}
+.gallery img:hover, .gallery-v2 img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
 /* -------------------------GRID -------------------------*/
 /* -------------------------columns-------------------------*/
 .col-1 {
