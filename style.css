@@ -195,10 +195,9 @@ nav img {
 
 /* -------------------------PROMO -------------------------*/
 .side-image {
-    background-image: url("https://media.gettyimages.com/photos/paper-of-pale-gray-color-with-openwork-texture-picture-id526839849?b=1&k=6&m=526839849&s=612x612&w=0&h=_YZrOTDgwgaQuFzv77hSMbksVm5h6ww7DP2Cn_6fLhg=");
-    min-height: 100px;
-    border: solid 1px green;
-
+    display: flex;
+    justify-content: left;
+    max-height: 400px;
 }
 /* -------------------------GRID -------------------------*/
 /* -------------------------columns-------------------------*/
