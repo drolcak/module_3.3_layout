@@ -36,7 +36,7 @@ p {font-size: 18px;}
 }
 
 
-/* -------------------------Header -------------------------*/
+/* -------------------------HEADER -------------------------*/
 nav {
     background: #313332;
     height: 50px;
@@ -94,7 +94,7 @@ nav img {
     font-size: x-large;
 }
 
-/* -------------------------Benefits -------------------------*/
+/* -------------------------BENEFITS -------------------------*/
 .benefits > .container {
     margin: 50px auto;
 }
@@ -127,7 +127,7 @@ nav img {
 .benefits .col-4:hover {
     color: #00C7E8;
 }
-/* -------------------------Gallery -------------------------*/
+/* -------------------------GALLERY -------------------------*/
 
 .gallery img {
     padding: 0 0;
@@ -198,8 +198,6 @@ nav img {
 }
 
 .team > .container > .row .col-3:hover img {
-    /*transform:rotateY(180deg);*/
-    /*transform: scale3d(1.1, 1.1, 1.1);*/
     opacity: 0.3;
 }
 
@@ -214,7 +212,6 @@ nav img {
 }
 
 /* -------------------------PROMO -------------------------*/
-/* Do Michała, dlaczego jak zdejme stąd flex, a dam block to nie wchodzi mi w diva i się rozlatuje */
 
 .promo {
     background-color: #F5F5F5;
@@ -261,24 +258,26 @@ nav img {
 .numbers .container .row .col-3 {
     text-transform: uppercase;
     text-align: center;
-    padding: 70px 0;
+    padding: 10% 0;
 }
 
 .numbers p {
     color: #01C9EB;
     font-weight: 700;
-    margin: 2px;
+    margin: 0;
 }
 
 .numbers h2 {
     font-weight: 700;
-    margin-bottom: 0;
+    margin:0;
+    font-size: 60px;
+
 }
 
 /* --------------------FOOTER-------------------------*/
 
 footer {
-    background: black;
+    background: #313332;
     color: #fff;
 }
 
@@ -292,7 +291,7 @@ footer {
     min-width: 60px;
     margin: 1%;
     cursor: pointer;
-    background: #000;
+    background: transparent;
     transition: background .5s, transform .5s;
 }
 
@@ -343,6 +342,34 @@ footer {
 .fa-github:hover {
     color: #ffffff;
     background: #4183C4;
+}
+
+/* -------------------------Other footer -------------------------*/
+
+footer h2 {
+    float: left;
+}
+
+footer hr {
+    min-width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 5%;
+}
+
+footer .container p {
+    float: left;
+}
+
+footer .col-4 .row .bold-class {
+    font-weight: 700;
+    padding-left:0;
+}
+
+footer .copyright {
+    background: #000000;
+    text-align: center;
 }
 /* -------------------------GRID -------------------------*/
 /* -------------------------columns-------------------------*/
